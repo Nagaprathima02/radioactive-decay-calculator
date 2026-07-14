@@ -1,24 +1,27 @@
-# Radioactive Decay Calculator
+# ☢️ Radioactive Decay Calculator
 
-A Python program to calculate radioactive decay using the formula:
+A comprehensive Python program for simulating radioactive decay and gamma ray attenuation.
 
-**N(t) = N₀ × (1/2)^(t/t₁/₂)**
+---
 
-Where:
-- N(t) = Remaining amount after time t
-- N₀ = Initial amount
-- t = Time elapsed
-- t₁/₂ = Half-life of the substance
+## 📋 Features
 
-## Features
+### 1. Radioactive Decay
+- Calculate remaining amount after a given time
+- Calculate time needed to reach target amount
+- Visualize decay curve with matplotlib
 
-- Uses NumPy for precise mathematical calculations
-- Example included for Copper-64 (half-life: 18 minutes)
-- Easy to modify for other isotopes
-- Clear output showing remaining amount and percentage
+### 2. Gamma Ray Attenuation
+- Compare shielding effectiveness of different materials
+- Supports: Lead, Steel, Concrete, Water
+- Visualize intensity drop through materials
 
-## How to Use
+---
 
-1. Make sure you have Python and NumPy installed:
-   ```bash
-   pip install numpy
+## 🚀 How to Run
+
+### Radioactive Decay
+```bash
+python nucdecay.py        # Basic calculator
+python comp_decay.py      # With decay plot
+time_req.py               # Calculate time
